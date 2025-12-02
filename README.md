@@ -12,7 +12,7 @@
 </ul>
 
 <h2>Contributions are welcome!</h2>
-<p>This project is available under the MIT License.</p>
-<h3>Author-Chubulu Mahanty</h3>
-<h3>GitHub-https://github.com/chubulu227-sketch</h3>
+<p>Feel free to fork the project and create a pull request with improvements or suggestions.</p>
+<h2>Author-Chubulu Mahanty</h2>
+<h2>GitHub-https://github.com/chubulu227-sketch</h2>
 
