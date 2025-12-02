@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <!-- <img src="Hlogo.png" alt="" srcset=""> -->
+        </div>
+        <nav>
+            <a href="#" class="btn" id="login">Login</a>
+            <a href="#" class="btn signup" id="sign">Sign Up</a>
+        </nav>
+    </header>
+
+    <!-- Login Section -->
+    <main class="popup_main_log" id="LogIn">
+        <div class="login-box">
+            <div class="reject" id="close_log">&times;</div>
+            <h2>Log In</h2>
+
+            <form action="">
+                <label>Email</label>
+                <input type="email" name="Login-Email" id="Login-email" placeholder="Enter your email">
+
+                <label>Password</label>
+                <input type="password" name="Login-Password" id="Login-password" placeholder="Enter your password">
+                <a href="#" id="forget">forget password?</a>
+
+                <button type="submit" class="login-btn">Login</button>
+            </form>
+
+            <p class="signup-link">Don't have an account? <a href="#" id="Sign-Link">Sign up</a></p>
+        </div>
+    </main>
+
+    <!-- Signup Section -->
+     <main class="popup_main_sin" id="SignUp">
+        <div class="container">
+            <div class="reject_signU">&times;</div>
+        <h2>Create Account</h2>
+
+        <form action="">
+            <div class="input-box">
+                <label>Full Name</label>
+                <input type="text" name="Signup-Name" id="Form-Name" placeholder="Enter your full name">
+            </div>
+
+            <div class="input-box">
+                <label>Email</label>
+                <input type="email" name="Signup-Email" id="Form-Email" placeholder="Enter your email">
+            </div>
+
+            <div class="input-box">  
+                <label>Password</label>
+                <input type="password" name="Signup-password" id="Form-Password" placeholder="Create a password">
+            </div>
+
+            <button class="btn" type="submit">Sign Up</button>
+
+            <p class="login-link">Already have an account? <a href="#" id="Log-Link">Login</a></p>
+        </form>
+    </div>
+     </main>
+
+
+    <!-- Hero Section -->
+    <section class="hero-content">
+        <div class="hero">
+            <h1>Welcome to Our Website</h1>
+            <p>Discover a world of possibilities with us. Join now and be part of our community!</p>
+        </div>
+     
+    <script src="popup.js"></script>
+    <script src="signData.js"></script>
+</body>
+</html>
+
