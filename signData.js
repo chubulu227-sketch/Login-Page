@@ -15,9 +15,13 @@ document.addEventListener("DOMContentLoaded", () => {
               return alert("All fields are required.");
         }
          else {
-            userData.push({name, email, password});
-            localStorage.setItem("signup", JSON.stringify(userData));
-            window.location.href = "submit.html";
+            if(password.length === 8){
+                userData.push({name, email, password});
+                localStorage.setItem("signup", JSON.stringify(userData));
+                window.location.href = "submit.html";
+            }else{
+                return alert("Password must be 8 characters long.");
+            }
         }        
         form.reset();
         e.preventDefault();
